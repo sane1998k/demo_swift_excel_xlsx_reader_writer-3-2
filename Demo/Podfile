@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'Demo Swift Excel Xlsx Reader Writer' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+pod "SearchTextField"
+  # Pods for Demo Swift Excel Xlsx Reader Writer
+
+  target 'Demo Swift Excel Xlsx Reader WriterTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Demo Swift Excel Xlsx Reader WriterUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
